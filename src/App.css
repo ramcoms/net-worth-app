@@ -1,0 +1,10 @@
+.App {
+  width: 500px;
+  max-width: 100vw;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: 0 8px;
+
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}

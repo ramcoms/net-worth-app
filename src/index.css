@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #262626;
+}
+
+button {
+  font-family: monospace;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  margin: 8px 0;
+  padding: 8px 12px;
+  transition: .3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+}
