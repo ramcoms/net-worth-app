@@ -19,6 +19,7 @@ button {
   border-radius: 99px;
   margin: 8px 0;
   padding: 8px 12px;
+  font-size: 0.6rem;
   transition: .3s;
 }
 

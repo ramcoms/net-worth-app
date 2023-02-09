@@ -19,3 +19,15 @@
     color: #a3a3a3;
 }
 
+
+.add-account-form {
+    margin: 0 auto;
+}
+
+.add-account-form .form-group {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
