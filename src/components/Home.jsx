@@ -48,24 +48,6 @@ const Home = () => {
       </div>
 
       {showForm && <div>{componentList[page]}</div>}
-
-      {/* {showForm && (
-        <GroupForm
-          groups={documents}
-          formData={formData}
-          setFormData={setFormData}
-          page={page}
-          setPage={setPage}
-        />
-      )}
-      {showForm && (
-        <AccountForm
-          formData={formData}
-          setFormData={setFormData}
-          page={page}
-          setPage={setPage}
-        />
-      )} */}
     </div>
   );
 };
