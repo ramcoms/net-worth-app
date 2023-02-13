@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, redirect, useNavigate } from 'react-router-dom';
 
 // hooks
 import { useRegister } from '../components/user/use-register';
@@ -9,6 +9,7 @@ import './UserForm.css';
 
 const Register = () => {
   const { register, error } = useRegister();
+  const navigate = useNavigate();
 
   const [userData, setUserData] = useState({
     email: '',
@@ -18,7 +19,9 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(userData);
+
     register(userData.email, userData.password);
+    navigate('/login');
   };
 
   return (
